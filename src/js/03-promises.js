@@ -4,6 +4,5 @@ function createPromise(position, delay) {
     // Fulfill
   } else {
     // Reject
-    hello
   }
 }
