@@ -57,14 +57,13 @@ const timer = {
 };
 
 function updateClockFace({ days, hours, minutes, seconds }) {
-  clockFace = `${days}:${hours}:${minutes}:${seconds}`;
 
   valueDays.textContent = days;
   valueHours.textContent = hours;
   valueMinutes.textContent = minutes;
   valueSeconds.textContent = seconds;
 
-  // console.log(clockFace);
+
 }
 
 function pad(value) {
